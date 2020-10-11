@@ -1,6 +1,6 @@
 # Siezure Detection
 
-Adapting a pytorch action detection network to classify whether a mouse was having a siezure for the Goldman Neurology Laboratory at the Children's Hospital of Pennsylvania. This project allowed for days of video to be shortened into the seconds and for the exact time when a mouse is having a siezure to be found. Seeing when a siezure begins without having EEG data is incredibly difficult and tedious, the movements of a mouse's siezure could be very subtle making it very difficult to study spontaneous siezures in mice. Instead most labs study dravet syndrome or other inducible siezure syndroms. Epilepeptic attacks in humans are not solely produced by light, heat or external factors and this laboratory is studying the genetic effects of epilepsy thus having a method of studying spontaneous as well as induced seizures allows for preventative mmedicine to be tested and deeveloped and then expanded to humans with epilepsy. 
+Adapting a pytorch action detection network (3D CNN) to classify whether a mouse was having a siezure for the Goldman Neurology Laboratory at the Children's Hospital of Pennsylvania. This project allowed for days of video to be shortened into the seconds and for the exact time when a mouse is having a siezure to be found. Seeing when a siezure begins without having EEG data is incredibly difficult and tedious, the movements of a mouse's siezure could be very subtle making it very difficult to study spontaneous siezures in mice. Instead most labs study dravet syndrome or other inducible siezure syndroms. Epilepeptic attacks in humans are not solely produced by light, heat or external factors and this laboratory is studying the genetic effects of epilepsy thus having a method of studying spontaneous as well as induced seizures allows for preventative mmedicine to be tested and deeveloped and then expanded to humans with epilepsy. 
 
 # First
 Run DataCreation.py
@@ -12,4 +12,4 @@ Train the model using the labeled video data. This video data show 5 different s
 
 # Third 
 Test the model with test data and find which 10 second clip was marked a having a seizure, verify by looking at the video. Augment your data with the newly
-aquired data and repeat. Using different models the best was found to be RCNN-ResNet.
+aquired data and repeat.
