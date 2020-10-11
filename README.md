@@ -5,7 +5,7 @@ Adapting a pytorch action detection network to classify whether a mouse was havi
 # First
 Run DataCreation.py
 
-Here you can create compatible folder names and break videos into short 10 second clips eacch having a label for seizure or not seizure. These short 10 second clips are then broken up into images and placed into a folder titled 0,1,2,...,n, the images have the name 0,1,2,3,...,n.jpeg.
+Here you can create compatible folder names and break videos into short 10 second clips each having a label for seizure or not seizure. These short 10 second clips are then broken up into images and placed into a folder titled 0,1,2,...,n the images have the name 0,1,2,3,...,n.jpeg.
 
 # Second
 Train the model using the labeled video data. This video data show 5 different siezures happening at different times of day and with different mice. The video data was taken with one mouse in a cage, the mouse has an eeg attached to his head. The EEG data was useed ot determine exactly when the seizure began and ended. 
